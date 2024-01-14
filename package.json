@@ -1,0 +1,17 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --output-style compressed assets/scss -o assets/css -w -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "node-sass": "^9.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

@@ -1,0 +1,9 @@
+.services .icon{
+    @include gradient;
+    font-size: 3rem;
+    background-clip: text;
+    -webkit-backdrop-clip:text;
+    -webkit-text-fill-color: transparent;
+    
+
+}

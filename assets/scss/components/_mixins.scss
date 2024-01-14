@@ -1,0 +1,14 @@
+@mixin gradient{
+    background: $secondary;
+    background: -webkit-linear-gradient(
+        to right,
+        $secondary,
+        $primary
+    );
+
+    background: linear-gradient(
+        to right,
+        $secondary,
+        $primary
+    );
+}
